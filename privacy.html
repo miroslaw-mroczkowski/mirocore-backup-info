@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Polityka prywatności osobistego narzędzia MiroCore Backups i jego strony informacyjnej.">
+  <title>Polityka prywatności — MiroCore Backups</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./">MiroCore <span>Backups</span></a><nav aria-label="Nawigacja"><a href="./">O narzędziu</a></nav></header>
+  <main>
+    <p class="eyebrow">MiroCore Backups · 22 października 2026</p>
+    <h1>Polityka prywatności</h1>
+    <p class="lead">Narzędzie jest przeznaczone do osobistego użytku właściciela. Poniższe zasady opisują obsługę danych przez połączenie z Google Drive oraz tę stronę informacyjną.</p>
+    <section><h2>1. Opiekun i przeznaczenie</h2><p>Narzędziem zarządza właściciel konta GitHub <a href="https://github.com/miroslaw-mroczkowski">miroslaw-mroczkowski</a>. Nie jest to usługa przyjmująca kopie innych osób. Kontakt w sprawach narzędzia odbywa się przez opiekuna wskazanego w tym profilu.</p></section>
+    <section><h2>2. Dane i uprawnienia Google</h2><p>Narzędzie korzysta z zakresu OAuth <code>https://www.googleapis.com/auth/drive.file</code>. Może odczytywać i modyfikować treść oraz metadane plików utworzonych przez narzędzie lub wyraźnie mu udostępnionych. Metadane obejmują między innymi nazwy, identyfikatory, rozmiary, daty i sumy kontrolne dostępne w API. Nie żąda ogólnego dostępu do całego Dysku, Gmaila ani Kontaktów.</p></section>
+    <section><h2>3. Cel użycia danych</h2><p>Dane służą wyłącznie do wykonania kopii zapasowych, ich przesyłania, sprawdzania integralności, odtwarzania oraz zarządzania zachowanymi wersjami. Dane pozyskane przez Google API nie służą reklamie, profilowaniu ani trenowaniu modeli AI i nie są sprzedawane.</p></section>
+    <section><h2>4. Przechowywanie i bezpieczeństwo</h2><p>Treść kopii jest szyfrowana przed wysłaniem i przechowywana na Google Drive właściciela. Program rclone obsługuje transfer przez połączenie HTTPS. Tokeny OAuth są przechowywane w prywatnej konfiguracji na urządzeniach, na których właściciel uruchamia narzędzie; nie są publikowane na tej stronie ani w jej repozytorium. Lokalne dane źródłowe, pliki robocze i kopie odtworzone do testów mogą pozostawać niezaszyfrowane na urządzeniu właściciela.</p></section>
+    <section><h2>5. Odbiorcy danych</h2><p>Google przetwarza przesyłane zaszyfrowane pliki i ich metadane w ramach usługi Drive. Nie są one udostępniane innym odbiorcom przez narzędzie. Właściciel zarządza osobno uprawnieniami plików na swoim Dysku. Obowiązuje również <a href="https://policies.google.com/privacy">polityka prywatności Google</a>.</p></section>
+    <section><h2>6. Usuwanie danych i cofnięcie dostępu</h2><p>Właściciel ustala czas zachowania wersji i może usunąć kopie bezpośrednio na Google Drive, opróżniając także Kosz, oraz usunąć kopie lokalne i pliki testowe. Dostęp można cofnąć w <a href="https://myaccount.google.com/connections">połączeniach konta Google</a>, wybierając MiroCore Backups. Cofnięcie zgody uniemożliwia dalszy dostęp przez tę autoryzację, ale samo nie usuwa już zapisanych kopii. Tokeny można dodatkowo usunąć z lokalnej konfiguracji rclone.</p></section>
+    <section><h2>7. Ta strona i hosting</h2><p>Strona nie zawiera skryptów analitycznych, reklam, formularzy, mechanizmów logowania ani własnych plików cookie. Hosting zapewnia GitHub Pages. GitHub może przetwarzać techniczne dane żądań, takie jak adres IP i dane przeglądarki, zgodnie z <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">polityką prywatności GitHub</a>. Strona nie otrzymuje tokenów Google ani treści kopii.</p></section>
+    <section><h2>8. Zmiany zasad</h2><p>Zmiany będą publikowane pod tym adresem wraz z datą aktualizacji. Rozszerzenie celu lub zakresu dostępu wymaga osobnej decyzji właściciela i, gdy jest to wymagane, ponownej zgody w Google.</p></section>
+  </main>
+  <footer><p><a href="./">← Wróć do informacji o narzędziu</a></p><p>MiroCore Backups · narzędzie do użytku osobistego</p></footer>
+</body>
+</html>
